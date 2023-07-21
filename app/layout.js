@@ -15,9 +15,9 @@ export default function RootLayout({ children }) {
       <body>
         <div className="main">
           <div className="main">{children}</div>
+      <MessengerChat />
         </div>
       </body>
-      <MessengerChat />
     </html>
   );
 }
