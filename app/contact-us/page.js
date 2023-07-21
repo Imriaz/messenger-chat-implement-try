@@ -30,8 +30,8 @@ const ContactUs = () => {
         Home
       </Link>
       <p>Chat with us using the Messenger chat window below:</p>
-      {/* <MessengerChat /> */}
-      <MessengerLiveChat />
+      <MessengerChat />
+      {/* <MessengerLiveChat /> */}
     </div>
   );
 };
