@@ -1,4 +1,5 @@
 import InfoCard from "@/components/info-card";
+import MessengerChat from "@/components/messenger-hat";
 import Link from "next/link";
 import React from "react";
 
@@ -20,13 +21,15 @@ const ContactUs = () => {
         distinctio ullam, ea dolorum corrupti ratione cupiditate aperiam eius
         molestias ipsam mollitia a.
       </p>
-      <div style={{ padding: "50px"}}></div>
+      <div style={{ padding: "50px" }}></div>
       <Link
         href="/"
         style={{ padding: "10px", backgroundColor: "skyblue", margin: "50px" }}
       >
         Home
       </Link>
+      <p>Chat with us using the Messenger chat window below:</p>
+      <MessengerChat />
     </div>
   );
 };
