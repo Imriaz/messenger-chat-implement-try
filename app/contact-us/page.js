@@ -1,3 +1,4 @@
+"use client";
 import InfoCard from "@/components/info-card";
 import MessengerChat from "@/components/messenger-chat";
 import MessengerLiveChat from "@/components/messenger-live-chat";
@@ -5,6 +6,10 @@ import Link from "next/link";
 import React from "react";
 
 const ContactUs = () => {
+  const [divId, setDivId] = React.useState("");
+  const handleChat = () => {
+    setDivId("tawk_64abea54cc26a871b0277704");
+  };
   return (
     <div>
       <InfoCard />
@@ -31,7 +36,11 @@ const ContactUs = () => {
       </Link>
       <p>Chat with us using the Messenger chat window below:</p>
       <MessengerChat />
-      {/* <MessengerLiveChat /> */}
+      {/* <button onClick={() => handleChat()}>
+        <div id={divId}>View</div>
+      </button> */}
+
+      <MessengerLiveChat />
     </div>
   );
 };

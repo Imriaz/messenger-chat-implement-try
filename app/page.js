@@ -102,7 +102,7 @@ export default function Home() {
       </div>
       <p>Chat with us using the Messenger chat window below:</p>
       <MessengerChat />
-      {/* <MessengerLiveChat /> */}
+      <MessengerLiveChat />
     </main>
   );
 }

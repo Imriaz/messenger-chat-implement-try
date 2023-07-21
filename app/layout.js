@@ -1,6 +1,7 @@
 import MessengerChatConfig from "@/components/messenger-chat-config";
 import "./globals.css";
 import { Inter } from "next/font/google";
+import TawkToWidget from "@/components/tawk-to-widget";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,7 +16,8 @@ export default function RootLayout({ children }) {
       <body>
         <div className="main">
           <div className="main">{children}</div>
-          <MessengerChatConfig />
+          {/* <TawkToWidget /> */}
+          {/* <MessengerChatConfig /> */}
         </div>
       </body>
     </html>

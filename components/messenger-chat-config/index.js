@@ -5,7 +5,7 @@ const MessengerChatConfig = () => (
         __html: `
                 window.fbAsyncInit = function() {
                   FB.init({
-                    appId: '238792998887533',
+                    appId: '2302895319880854',
                     xfbml: true,
                     version: 'v11.0'
                   });
