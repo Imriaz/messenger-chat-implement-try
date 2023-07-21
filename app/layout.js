@@ -1,3 +1,4 @@
+import MessengerChat from "@/components/messenger-chat";
 import "./globals.css";
 import { Inter } from "next/font/google";
 
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
           <div className="main">{children}</div>
         </div>
       </body>
+      <MessengerChat />
     </html>
   );
 }
