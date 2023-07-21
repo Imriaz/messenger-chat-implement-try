@@ -1,5 +1,6 @@
 import InfoCard from "@/components/info-card";
-import MessengerChat from "@/components/messenger-hat";
+import MessengerChat from "@/components/messenger-chat";
+import MessengerLiveChat from "@/components/messenger-live-chat";
 import Link from "next/link";
 import React from "react";
 
@@ -29,7 +30,8 @@ const ContactUs = () => {
         Home
       </Link>
       <p>Chat with us using the Messenger chat window below:</p>
-      <MessengerChat />
+      {/* <MessengerChat /> */}
+      <MessengerLiveChat />
     </div>
   );
 };
