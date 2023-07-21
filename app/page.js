@@ -2,7 +2,6 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
 import MessengerChat from "@/components/messenger-chat";
-import MessengerLiveChat from "@/components/messenger-live-chat";
 
 export default function Home() {
   return (
@@ -102,7 +101,6 @@ export default function Home() {
       </div>
       <p>Chat with us using the Messenger chat window below:</p>
       <MessengerChat />
-      <MessengerLiveChat />
     </main>
   );
 }

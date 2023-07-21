@@ -1,8 +1,11 @@
 "use client";
-import React from "react";
-
+import { FacebookProvider, CustomChat } from "react-facebook";
 const MessengerChat = () => {
-  return <div className="fb-customerchat" page_id="100443455067967" />;
+  return (
+    <FacebookProvider appId="671138315032314" chatSupport>
+      <CustomChat pageId="100443455067967" minimized={true} />
+    </FacebookProvider>
+  );
 };
 
 export default MessengerChat;
