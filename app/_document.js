@@ -10,7 +10,7 @@ class MyDocument extends Document {
             async
             defer
             crossOrigin="anonymous"
-            src={`https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0&appId=${process.env.NEXT_PUBLIC_FB_APP_ID}&autoLogAppEvents=1`}
+            src={`https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0&appId="238792998887533" &autoLogAppEvents=1`}
           ></script>
         </Head>
         <body>

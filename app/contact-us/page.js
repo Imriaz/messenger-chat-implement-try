@@ -1,5 +1,6 @@
 "use client";
 import InfoCard from "@/components/info-card";
+import MessengerChatTryNew from "@/components/try-new";
 import Link from "next/link";
 import React from "react";
 
@@ -33,6 +34,7 @@ const ContactUs = () => {
         Home
       </Link>
       <p>Chat with us using the Messenger chat window below:</p>
+      <MessengerChatTryNew />
     </div>
   );
 };
