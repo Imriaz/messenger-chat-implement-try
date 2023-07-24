@@ -1,7 +1,6 @@
 import MessengerChat from "@/components/messenger-chat";
 import "./globals.css";
 import { Inter } from "next/font/google";
-import CustomerChat from "@/components/customer-chat";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -16,7 +15,6 @@ export default function RootLayout({ children }) {
         <div className="main">
           <div className="main">{children}</div>
           {/* <MessengerChat /> */}
-          <CustomerChat />
         </div>
       </body>
     </html>
